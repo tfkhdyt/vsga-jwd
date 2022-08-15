@@ -26,6 +26,7 @@
       echo "<br>";
     }
   }
+  echo "<br>Dibuat oleh Taufik Hidayat";
   ?>
 </body>
 
