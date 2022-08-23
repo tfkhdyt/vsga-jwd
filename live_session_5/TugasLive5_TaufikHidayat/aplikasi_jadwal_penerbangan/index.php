@@ -64,7 +64,7 @@ function totalHarga($totalPajak, $hargaTiket) {
 
 	<!-- Form Pendaftaran Rute Penerbangan -->
 	<form action="index.php" method="post">
-		<table width="700px">
+		<table width="100%">
 			<tr>
 				<td width="20%"><label>Maskapai</label></td>
 				<td>:</td>
