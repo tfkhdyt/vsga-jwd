@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+  border: 3px solid black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: courier;
+  font-size: 300%;
+}
+
+table,
+th,
+td {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+select {
+  width: 50%;
+  padding: 10px;
+}
+
+.inputtext {
+  width: 98%;
+  padding: 10px;
+}
+
+input[type='submit'] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
