@@ -13,7 +13,8 @@ Ini adalah sebuah aplikasi berbasis web untuk menghitung ongkos kirim pengiriman
 
 - Apache
 - PHP
-- Text Editor
+- NPM
+- Text Editor (VSCode)
 - Browser
 
 ## Installation
