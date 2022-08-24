@@ -16,5 +16,14 @@
     "namaPenerima": "Fauzi",
     "alamatPenerima": "Majalengka",
     "ongkir": 24000
+  },
+  {
+    "noResi": 19557763594542,
+    "namaBarang": "PS5",
+    "beratBarang": "8",
+    "jenisPaket": "reguler",
+    "namaPenerima": "Hakam",
+    "alamatPenerima": "Surabaya",
+    "ongkir": 27500
   }
 ]
