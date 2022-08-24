@@ -45,6 +45,7 @@ Ini adalah sebuah aplikasi berbasis web untuk menghitung ongkos kirim pengiriman
 │   └── tailwindcss // folder dependency tailwind css
 ├── package.json // file metadata untuk dependency
 ├── pnpm-lock.yaml // file lock untuk dependency
+├── README.md // file readme
 ├── tailwind.config.js // file konfigurasi tailwind
 └── utils // folder untuk menyimpan function-function
     ├── generateNoResi.php // function generate no resi
