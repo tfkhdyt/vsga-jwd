@@ -1,29 +1,38 @@
 [
-  {
-    "noResi": 13815357255855,
-    "namaBarang": "Handphone",
-    "beratBarang": "0.25",
-    "jenisPaket": "reguler",
-    "namaPenerima": "Taufik",
-    "alamatPenerima": "Bandung",
-    "ongkir": 11000
-  },
-  {
-    "noResi": 13133349257989,
-    "namaBarang": "Laptop",
-    "beratBarang": "5",
-    "jenisPaket": "nextDay",
-    "namaPenerima": "Fauzi",
-    "alamatPenerima": "Majalengka",
-    "ongkir": 24000
-  },
-  {
-    "noResi": 19557763594542,
-    "namaBarang": "PS5",
-    "beratBarang": "8",
-    "jenisPaket": "reguler",
-    "namaPenerima": "Hakam",
-    "alamatPenerima": "Surabaya",
-    "ongkir": 27500
-  }
+    {
+        "noResi": 13815357255855,
+        "namaBarang": "Handphone",
+        "beratBarang": "0.25",
+        "jenisPaket": "reguler",
+        "namaPenerima": "Taufik",
+        "alamatPenerima": "Bandung",
+        "ongkir": 11000
+    },
+    {
+        "noResi": 13133349257989,
+        "namaBarang": "Laptop",
+        "beratBarang": "5",
+        "jenisPaket": "nextDay",
+        "namaPenerima": "Fauzi",
+        "alamatPenerima": "Majalengka",
+        "ongkir": 24000
+    },
+    {
+        "noResi": 19557763594542,
+        "namaBarang": "PS5",
+        "beratBarang": "8",
+        "jenisPaket": "reguler",
+        "namaPenerima": "Hakam",
+        "alamatPenerima": "Surabaya",
+        "ongkir": 27500
+    },
+    {
+        "noResi": 14418026178870,
+        "namaBarang": "dfdf",
+        "beratBarang": "4",
+        "jenisPaket": "reguler",
+        "namaPenerima": "dfdf",
+        "alamatPenerima": "dfdf",
+        "ongkir": 16500
+    }
 ]
