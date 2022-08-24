@@ -37,7 +37,7 @@ Ini adalah sebuah aplikasi berbasis web untuk menghitung ongkos kirim pengiriman
 │   ├── navbar.php // komponen navbar
 │   └── table.php // komponen table
 ├── data // folder untuk menyimpan data json
-│   └── data.json // file dta
+│   └── data.json // file data
 ├── index.php // file php utama
 ├── node_modules
 │   ├── @tailwindcss
