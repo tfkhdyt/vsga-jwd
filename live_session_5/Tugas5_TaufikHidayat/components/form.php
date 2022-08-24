@@ -112,7 +112,7 @@ if (isset($_POST['submit'])) { // apabila tombol submit telah ditekan
   </div>
 
   <!-- tombol submit  -->
-  <button type="submit" name="submit" class="block w-full px-5 py-3 text-sm font-medium text-white bg-pink-600 hover:bg-pink-700 active:bg-pink-800 transition duration-300 rounded-lg">
+  <button type="submit" name="submit" class="block w-full px-5 py-3 text-sm font-bold text-white bg-pink-600 hover:bg-pink-700 active:bg-pink-800 transition duration-300 rounded-lg">
     Submit
   </button>
 </form>
