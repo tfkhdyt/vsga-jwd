@@ -21,13 +21,15 @@
             <td class="px-4 py-2 text-gray-700 whitespace-nowrap"><?= $data[$i]['namaBarang'] ?></td> <!-- tampilkan field nama barang -->
             <td class="px-4 py-2 text-gray-700 whitespace-nowrap text-right"><?= $data[$i]['beratBarang'] ?></td> <!-- tampilkan field berat barang -->
             <td class="px-4 py-2 text-gray-700 whitespace-nowrap">
-              <p class="<?= $data[$i]['jenisPaket'] == 'reguler' ? 'bg-blue-500' : 'bg-amber-500' ?> text-white px-3 py-1 rounded-full font-bold text-center"><?= $data[$i]['jenisPaket'] == 'reguler' ? 'Reguler' : 'Next Day' ?></p> <!-- tampilkan field jenis paket dan tentukan warna bg berdasarkan jenis nya -->
+              <p class="<?= $data[$i]['jenisPaket'] == 'reguler' ? 'bg-green-600 hover:bg-green-700' : 'bg-blue-600 hover:bg-blue-700' ?> text-white px-3 py-1 rounded-full font-bold text-center transition duration-300 cursor-default"><?= $data[$i]['jenisPaket'] == 'reguler' ? 'Reguler' : 'Next Day' ?></p> <!-- tampilkan field jenis paket dan tentukan warna bg berdasarkan jenis nya -->
             </td>
             <td class="px-4 py-2 text-gray-700 whitespace-nowrap"><?= $data[$i]['namaPenerima'] ?></td> <!-- tampilkan field nama penerima -->
             <td class="px-4 py-2 text-gray-700 whitespace-nowrap"><?= $data[$i]['alamatPenerima'] ?></td> <!-- tampilkan field alamat penerima -->
             <td class="px-4 py-2 text-gray-700 whitespace-nowrap">
               <!-- tampilkan field ongkir dan format angka nya agar seperti mata uang rupiah -->
-              <p class="bg-pink-600 text-white px-3 py-1 rounded-full font-bold text-center"><?= 'Rp' . number_format($data[$i]['ongkir'], 0, ',', '.') ?></p>
+              <span class="bg-pink-600 hover:bg-pink-800 transition duration-300 text-white px-3 py-1 rounded-full font-bold text-center cursor-default">
+                <?= 'Rp' . number_format($data[$i]['ongkir'], 0, ',', '.') ?>
+              </span>
             </td>
           </tr>
         <?php endfor ?>
